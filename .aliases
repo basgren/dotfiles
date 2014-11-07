@@ -1,0 +1,6 @@
+alias dl='cd ~/Downloads'
+alias dbox='cd ~/Dropbox'
+alias dv='cd ~/dev'
+
+alias aled='vi ~/.dotfiles/.aliases'
+alias aledl='vi ~/.dotfiles/.aliases.local'

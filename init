@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source ~/.dotfiles/.aliases
+[[ -s "$HOME/.dotfiles/.aliases.local" ]] && source "$HOME/.dotfiles/.aliases.local"
