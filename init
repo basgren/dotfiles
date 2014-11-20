@@ -1,4 +1,8 @@
 #!/bin/bash
 
-source ~/.dotfiles/.aliases
-[[ -s "$HOME/.dotfiles/.aliases.local" ]] && source "$HOME/.dotfiles/.aliases.local"
+MY_DOTFILES_DIR="$HOME/.dotfiles"
+MY_EDITOR=vi
+
+# Load general and local aliases
+source "$MY_DOTFILES_DIR/.aliases"
+[[ -s "$MY_DOTFILES_DIR/.aliases.local" ]] && source "$MY_DOTFILES_DIR/.aliases.local"

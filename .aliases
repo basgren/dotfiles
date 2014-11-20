@@ -1,6 +1,9 @@
-alias dl='cd ~/Downloads'
-alias dbox='cd ~/Dropbox'
-alias dv='cd ~/dev'
+#!/bin/bash
 
-alias aled='vi ~/.dotfiles/.aliases'
-alias aledl='vi ~/.dotfiles/.aliases.local'
+alias dl="cd ~/Downloads"
+alias dbox="cd ~/Dropbox"
+alias dv="cd ~/dev"
+
+
+alias aled="$MY_EDITOR $MY_DOTFILES_DIR/.aliases"
+alias aledl="$MY_EDITOR $MY_DOTFILES_DIR/.aliases.local"
